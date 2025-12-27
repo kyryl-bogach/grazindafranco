@@ -3,17 +3,20 @@ version: '3.8'
 services:
   grazindafranco:
     build: .
-    restart: always
+    restart: unless-stopped
     expose:
-      - "80"
+      - "3000"
     environment:
-      VIRTUAL_HOST: grazindafranco.com,www.grazindafranco.com
-      LETSENCRYPT_HOST: grazindafranco.com,www.grazindafranco.com
-      LETSENCRYPT_EMAIL: kyryl@bogach.es
+      - NODE_ENV=production
+      - VIRTUAL_HOST=grazindafranco.com,www.grazindafranco.com
+      - VIRTUAL_PORT=3000
+      - LETSENCRYPT_HOST=grazindafranco.com,www.grazindafranco.com
+      - LETSENCRYPT_EMAIL=kyryl@bogach.es
+    env_file:
+      - .env.local
     networks:
       - nginx-proxy
 
 networks:
   nginx-proxy:
     external: true
-
