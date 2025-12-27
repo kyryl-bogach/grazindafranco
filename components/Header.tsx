@@ -17,16 +17,16 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex-shrink-0">
+        <div className="flex items-center justify-between py-3 sm:py-4">
+          <Link href="/" className="flex-shrink-0 flex items-center py-1">
             <Image
               src="/images/logo.png"
               alt="Grazinda Franco"
               width={180}
               height={60}
-              className="h-16 w-auto"
+              className="h-10 sm:h-14 w-auto"
               priority
             />
           </Link>
