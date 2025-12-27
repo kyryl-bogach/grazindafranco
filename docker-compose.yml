@@ -9,7 +9,7 @@ services:
     environment:
       VIRTUAL_HOST: grazindafranco.com,www.grazindafranco.com
       LETSENCRYPT_HOST: grazindafranco.com,www.grazindafranco.com
-      LETSENCRYPT_EMAIL: k@bogach.es
+      LETSENCRYPT_EMAIL: kyryl@bogach.es
     networks:
       - nginx-proxy
 

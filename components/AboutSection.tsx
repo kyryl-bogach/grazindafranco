@@ -13,7 +13,7 @@ export default function AboutSection({ showFullContent = false }: AboutSectionPr
           <div className="relative">
             <div className="aspect-[3/4] relative overflow-hidden">
               <Image
-                src="/images/portrait-about.jpg"
+                src="/images/portrait-about-selfie.jpg"
                 alt="Grazinda Franco - Maquilladora profesional"
                 fill
                 className="object-cover"
