@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "Grazinda Franco",
     title: "Grazinda Franco | Maquillaje y Belleza",
     description:
-      "Maquilladora profesional y experta en dermofarmacia en Orihuela, Alicante.",
+      "Maquilladora profesional y experta en dermofarmacia en Orihuela, Alicante. Servicios de maquillaje para novias, eventos especiales y asesoramiento personalizado en cuidado de la piel.",
     images: [
       {
         url: "/images/og-image.png",
