@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Lato, Pinyon_Script } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StructuredData from "@/components/StructuredData";
+import ChatWidget from "@/components/ChatWidget";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -93,6 +94,7 @@ export default function RootLayout({
       <body className={`${cormorant.variable} ${lato.variable} ${pinyon.variable} antialiased min-h-screen flex flex-col`}>
         <Header />
         <main className="pt-20 flex-grow">{children}</main>
+        <ChatWidget />
         <Footer />
       </body>
     </html>
