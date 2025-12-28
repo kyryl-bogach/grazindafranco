@@ -142,6 +142,15 @@ Defined in `globals.css`:
 - **Purpose**: SEO-optimized JSON-LD for local business.
 - **Data**: Business name, address, phone, email, opening hours, services.
 
+#### `ChatWidget.tsx` ⭐ **New AI Component**
+- **Purpose**: Intelligent assistant for customer inquiries.
+- **Tech**: ReactMarkdown + Custom OpenRouter Stream.
+- **Key Features**:
+  - **Floating UI**: Non-intrusive bubble.
+  - **Manual Streaming**: Custom `ReadableStream` implementation for robust data flow.
+  - **Strict Logic**: System-prompt enforced WhatsApp URL generation (`https://wa.me/...`).
+  - **Visuals**: Clean, light-themed UI matching the site's aesthetic.
+
 ---
 
 ## 5. File Structure & Conventions
@@ -234,7 +243,6 @@ All assets follow descriptive, lowercase-kebab-case naming:
 
 ### Docker (Recommended)
 - `Dockerfile` and `docker-compose.yml` are included
-- `nginx.conf` handles static file serving and reverse proxy
 - Build: `docker build -t grazindafranco .`
 - Run: `docker-compose up -d`
 

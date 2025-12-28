@@ -71,6 +71,12 @@ grazindafranco.com/
 - Duration indicators for all services
 - Minimum guest requirements clearly stated
 
+### AI Assistant (New)
+- **DeepSeek V3 Integration**: Powered by OpenRouter for intelligent responses.
+- **Context-Aware**: Trained on Grazinda's expert knowledge (pharmacy, makeup, services).
+- **Smart Fallback**: Directs complex queries to WhatsApp with pre-filled messages.
+- **Rich UI**: Markdown support (bold, lists) and strict strict WhatsApp link generation.
+
 ### SEO Optimization
 - Structured data (JSON-LD) for local business
 - Dynamic sitemap and robots.txt
@@ -116,6 +122,7 @@ SMTP_PORT=465
 SMTP_USER=your_email@example.com
 SMTP_PASS=your_app_password
 CONTACT_EMAIL=grazinda.franco@gmail.com
+OPENROUTER_API_KEY=your_deepseek_api_key
 ```
 
 > **Note**: For Gmail, use an [App Password](https://support.google.com/accounts/answer/185833) instead of your regular password.
@@ -162,8 +169,6 @@ docker build -t grazindafranco .
 # Run with docker-compose
 docker-compose up -d
 ```
-
-The included `nginx.conf` handles static file serving and reverse proxy.
 
 ### VPS Deployment
 
