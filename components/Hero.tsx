@@ -47,7 +47,7 @@ export default function Hero() {
             {/* Layer 1: Brush Stroke Background */}
             <div className="absolute inset-0 z-0 animate-float opacity-80 pointer-events-none">
               <Image
-                src="/images/hero-brush-stroke.png"
+                src="/images/hero-brush-stroke.webp"
                 alt=""
                 fill
                 className="object-contain scale-[1.3] md:scale-[1.5] rotate-12 opacity-30"
