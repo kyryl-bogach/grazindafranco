@@ -37,7 +37,7 @@ const services = [
 
 export default function ServicesFullSection() {
     return (
-        <section className="pt-20 pb-10 bg-white" id="servicios">
+        <section className="pt-20 pb-10 bg-white overflow-hidden" id="servicios">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <h2 className="section-title justify-center mb-6">Servicios y Tarifas</h2>

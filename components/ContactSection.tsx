@@ -6,7 +6,7 @@ interface ContactSectionProps {
 
 export default function ContactSection({ showFullPage = false }: ContactSectionProps) {
   return (
-    <section className="py-12 md:py-20 bg-[#faf8f5]" id="contacto">
+    <section className="py-12 md:py-20 bg-[#faf8f5] overflow-hidden" id="contacto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="section-title justify-center mb-6">¿Hablamos?</h2>

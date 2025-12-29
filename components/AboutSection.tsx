@@ -7,7 +7,7 @@ interface AboutSectionProps {
 
 export default function AboutSection({ showFullContent = false }: AboutSectionProps) {
   return (
-    <section className="py-12 md:py-20 bg-white" id="sobre-mi">
+    <section className="py-12 md:py-20 bg-white overflow-hidden" id="sobre-mi">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="relative">
