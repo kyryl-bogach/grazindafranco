@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const services = [
     {
@@ -122,14 +123,22 @@ export default function ServicesFullSection() {
                                 </ul>
                             </div>
 
-                            <a
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSc4sm3DIsFfKeooxF3wIewOdN-uENTxt5ir0PPVTPbiK6VnYQ/viewform"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="btn-primary w-full md:w-auto text-center inline-block"
-                            >
-                                Consultar disponibilidad (Formulario Novias)
-                            </a>
+                            <div className="flex flex-col sm:flex-row gap-4">
+                                <Link
+                                    href="/dossier-novias"
+                                    className="btn-primary w-full sm:w-auto text-center inline-block"
+                                >
+                                    Ver Dossier Completo
+                                </Link>
+                                <a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSc4sm3DIsFfKeooxF3wIewOdN-uENTxt5ir0PPVTPbiK6VnYQ/viewform"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-8 py-3.5 text-sm border-2 border-[#c9a87c] text-[#c9a87c] uppercase tracking-widest hover:bg-[#c9a87c] hover:text-white transition-all duration-300 w-full sm:w-auto text-center inline-block"
+                                >
+                                    Consultar Disponibilidad
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
