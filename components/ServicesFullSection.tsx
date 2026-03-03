@@ -8,7 +8,7 @@ const services = [
         priceDetail: "Duración: 1 hora",
         description:
             "Perfecto para invitadas, eventos de día o de noche, graduaciones o cualquier ocasión especial donde quieras lucir impecable.",
-        includes: ["Preparación de la piel", "Maquillaje de larga duración", "Pestañas postizas individuales (opcional +10€)"],
+        includes: ["Preparación de la piel", "Maquillaje de larga duración", "Pestañas postizas incluidas"],
     },
     {
         title: "Maquillaje a Domicilio",
