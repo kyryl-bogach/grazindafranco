@@ -429,14 +429,14 @@ export default function DossierNoviasPage() {
                                 <span>Reservar por WhatsApp</span>
                             </a>
 
-                            {/* Secondary: Google Form */}
+                            {/* Secondary: Formulario Servicio de Novias (redirige al Google Form) */}
                             <a
-                                href="https://docs.google.com/forms/d/e/1FAIpQLSc4sm3DIsFfKeooxF3wIewOdN-uENTxt5ir0PPVTPbiK6VnYQ/viewform"
+                                href="/dossier-novias/formulario/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="px-8 py-3.5 text-sm text-center border-2 border-[#c9a87c] text-[#c9a87c] uppercase tracking-widest hover:bg-[#c9a87c] hover:text-white transition-all duration-300"
                             >
-                                Formulario de Consulta
+                                Formulario Servicio de Novias
                             </a>
 
                             {/* Tertiary: Phone */}
